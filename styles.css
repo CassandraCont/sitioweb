@@ -5,6 +5,8 @@
 
 
 
+
+
 .producto-categoria1 {
   padding: 0 10vw;
   font-size: 20px;
@@ -453,7 +455,6 @@ nav{
 .contenedor-productos{
  padding: 0 10vw;
  display: flex;
- overflow-x: auto;
  scroll-behavior: smooth;
 }
 
@@ -1028,7 +1029,17 @@ BLOG
         margin: 20px auto;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);    
     }
-    
+    #apiData{
+      background-color: rgb(245, 253, 253) ;
+      border-radius:6px ;
+
+    }
+    .perro{
+      width: 120%; 
+      height:60% ;
+      background-color: black;
+      padding: 1%;
+    }
     .contenedorcontacto h1 {
         font-size: 30px;
         font-weight: 600;
@@ -1131,3 +1142,47 @@ BLOG
         cursor:pointer;
         float: right;
     }
+   
+    @media(max-width:1200px) {
+      .producto{
+        position: absolute;
+        padding: 140px;
+      }
+      
+    }
+    @media (max-width:1200px){
+      .perro{
+        width: 135%;
+      }
+    }
+    @media(max-width:1200px) {
+#tabla3{
+  position: relative;
+  padding: 20px;
+}
+
+    }
+    @media (max-width:1200px){
+.ahorra-nunca{
+  position: absolute;
+  top:30%
+}
+    } 
+    @media(max-width:1200px) {
+#tablazul{
+  width: 150%;
+}
+    }
+    @media(max-width:700px){
+      #tabla4{
+        width: 140%;
+      }
+    }
+    @media(max-width:700px){
+      .Ahorra-nunca1{
+        position: absolute;
+        top: 40%;
+      }
+    }
+  
+
