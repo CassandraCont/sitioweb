@@ -2,7 +2,7 @@ const apibutton= document.getElementById('apibutton');
 const apiData= document.getElementById('apiData')
 
 const callApi=()=>{
-    fetch('https://meowfacts.herokuapp.com/ ')
+    fetch('https://meowfacts.herokuapp.com/?lang=esp ')
     .then(res=> res.json())
     .then (data => {
         apiData.innerText=JSON.stringify(data.data);
