@@ -1165,10 +1165,12 @@ BLOG
     }
     @media (max-width:1200px){
 .ahorra-nunca{
-  padding-left: 200px;
-  top: 27%;
-  margin-left: 20px;
-  position: fixed;
+  padding-left: 250px;
+  top: 40%;
+  margin-left: 200px;
+  position: absolute;
+  margin-right: 25px;
+
 }
     } 
     @media(max-width:1200px) {
@@ -1228,5 +1230,10 @@ width: 150%;
     @media(max-width:1200px){
       #tabla2{
         width: 150%;
+      }
+    }
+    @media(max-width:1200px){
+      .hola{
+        margin-left: 0px;
       }
     }
