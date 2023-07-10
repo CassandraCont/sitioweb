@@ -1237,3 +1237,10 @@ width: 150%;
         margin-left: 0px;
       }
     }
+    @media(max-width:1200px){
+      .post-list{
+        margin-left: 50px;
+        width: 137%;
+
+      }
+    }
