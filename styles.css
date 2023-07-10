@@ -2,7 +2,12 @@
  margin: 0%;
  padding: 0%;
 }
-
+#tabla1{
+  width: 100%;
+}
+#tabla2{
+  width: 100%;
+}
 
 
 .producto-categoria1 {
@@ -438,7 +443,7 @@ nav{
 .producto {
   position: relative;
   overflow: hidden;
-  padding: 20px;
+  padding: 2px;
 }
 
 .producto-categoria{
@@ -1141,22 +1146,29 @@ BLOG
     @media(max-width:1200px) {
       .producto{
         position: absolute;
-        padding: 140px;
+        width: 150%;
       }
       
+    }
+    @media(max-width:1200px){
+      .perro{
+        width: 150%;
+      }
     }
    
     @media(max-width:1200px) {
 #tabla3{
-  position: relative;
+  margin-left: 180px;
   padding: 20px;
 }
 
     }
     @media (max-width:1200px){
 .ahorra-nunca{
-  position: absolute;
-  top:30%
+  padding-left: 200px;
+  top: 27%;
+  margin-left: 20px;
+  position: fixed;
 }
     } 
     @media(max-width:1200px) {
@@ -1175,13 +1187,46 @@ BLOG
         top: 40%;
       }
     }
-    @media screen and(min-width:1000px){
-      table {
-        width: 139%;
-      }
-    }
+    
 @media (max-width:300px){
   .envio{
     margin-left: 260px;
   }
 }
+@media(max-width:1200px){
+  .contenedor2{
+width: 150%;
+  }
+}
+@media(max-width:1200px){
+  .kitlimpieza{
+    right: 0px;
+    margin-right: 1000px;
+  }
+}
+@media(max-width:1200px){
+  .Ahorra-nunca1{
+    top: 20%;
+    text-align: right;
+  }
+}
+@media(max-width:1200px){
+.tablaazul1{
+  width: 150%;
+}
+}
+@media(max-width:1200px){
+  nav{
+    width: 150%;
+  }
+  }
+  @media(max-width:1200px){
+    #tabla1{
+      width: 150%;
+    }
+    }
+    @media(max-width:1200px){
+      #tabla2{
+        width: 150%;
+      }
+    }
